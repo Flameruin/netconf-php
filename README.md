@@ -1,5 +1,14 @@
 NETCONF-PHP
 ============
+I needed to use netconf to connect to some devices so I used juniper netconf-php as a base
+It didn't work as is so I looked netconf RFC6242 (I still use the "]]>]]>" as the EndOfCommand) and other netconf implentation (mainly juniper netconf-java) to add what's missing.
+
+I added and changed some things (other than what didn't work) such as SIMPLEXML use, device timeout definition, new way to read EOS and more (I'll try to document better at some point)
+
+
+*Original readme below this line.*
+NETCONF-PHP
+============
 
 PHP library for NETCONF
 
