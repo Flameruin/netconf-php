@@ -5,6 +5,9 @@ It didn't work as is so I looked netconf RFC6242 (I still use the "]]>]]>" as th
 
 I added and changed some things (other than what didn't work) such as SIMPLEXML use, device timeout definition, new way to read EOS and more (I'll try to document better at some point)
 
+Tested in Centos 7 with php7.3
+httpd (Apache) server
+
 
 *Original readme below this line.*
 
