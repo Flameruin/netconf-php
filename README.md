@@ -8,8 +8,9 @@ I added and changed some things (other than what didn't work) such as SIMPLEXML 
 Tested in Centos 7 with php7.3
 httpd (Apache) server
 
-
-*Original readme below this line.*
+----
+## *Original readme below this line.*
+----
 
 NETCONF-PHP
 ============
