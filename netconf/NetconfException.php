@@ -1,17 +1,18 @@
 <?php
 
 /**
-*Describes exceptions related to establishing Netocnf session.
-*/
-class NetconfException extends Exception {
-    
-    public function NetconfException($msg) {
-        Exception::__construct($msg);
-    }
+ *Describes exceptions related to establishing Netocnf session.
+ */
+class NetconfException extends Exception{
+	public function NetconfException($msg){
 
-    public function getErrorMessage() {
-        return $this->getMessage();
-    }
+		Exception::__construct($msg);
+	}
+
+	public function getErrorMessage(){
+
+		return $this->getMessage();
+	}
 }
 
 ?>

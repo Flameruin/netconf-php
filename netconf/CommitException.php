@@ -1,15 +1,16 @@
 <?php
 
 /**
-*Describes exceptions related to commit operation
-*/
-class CommitException extends Exception {
+ *Describes exceptions related to commit operation
+ */
+class CommitException extends Exception{
+    public function CommitException($msg){
 
-    public function CommitException($msg) {
-         Exception::__construct($msg);
+        Exception::__construct($msg);
     }
 
-    public function getErrorMessage() {
+    public function getErrorMessage(){
+
         return $this->getMessage();
     }
 }
